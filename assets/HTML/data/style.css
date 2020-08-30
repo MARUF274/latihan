@@ -1,0 +1,112 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://images4.alphacoders.com/196/196306.jpg);
+    background-size: 100%;
+}
+
+.bg-green {
+    background-color: #FF66FF;
+    color: #fff;
+    box-shadow: 0 0 7px 0 #ff66ff;
+    border: 1px solid #ff66ff;
+}
+
+.bg-blue {
+    background-color: #791199;
+    color: #fff;
+    box-shadow: 0 0 7px 0 #791199;
+    border: 1px solid #791199;
+}
+
+.border-blue {
+    color: #791199;
+    border: 1px solid #791199;
+}
+
+
+/* profile section*/
+
+section#box-profile {
+    position: relative;
+    width: 80%;
+    min-height: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.411);
+    box-shadow: 0 0 7px 0px rgba(136, 136, 136, 0.2)
+}
+
+#box-profile .img-profile {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+    float: left;
+    top: 25px;
+    margin-left: 30px;
+}
+
+.img-profile .photo {
+    height: 100%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 0 -20px;
+    border-radius: 300px;
+}
+
+.description {
+    position: relative;
+    width: 400px;
+    display: inline-block;
+    float: left;
+    top: 50px;
+    margin-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-right: 1px solid #efefef;
+}
+
+.description h1 {
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+.description p {
+    color: rgb(17, 0, 255);
+}
+
+.description button {
+    margin-top: 40px;
+}
+
+.information {
+    position: relative;
+    font-display: inline-block;
+    float: left;
+    font-family: 'Helvetica', sans-serif;
+    top: 45px;
+    margin-left: 30px;
+}
+
+.information .data {
+    display: block;
+    width: 100%;
+    height: 36px;
+}
+
+.information p.field {
+    font-weight: 600;
+    width: 150px;
+    color: #333;
+}
+
+.information .data p {
+    float: left;
+}

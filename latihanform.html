@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+.container{
+    margin-left: 20%;
+    margin-right: 0;
+}
+</style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Latihan Formulir</h1>
+        <br>
+        <div class="container">
+            <div style="width: 800px;" align="center">
+            <fieldset> 
+                <legend style="text-align: center">Input</legend>
+                <form><table border="0" cellspacing="2" cellpadding="6" bgcolor="white" align="center">
+                        <tr>
+                            <td rowspan="12"></td>
+                            <td width="125px"><label for="name">Name</label></td>
+                            <td>:</td>
+                            <td><input type="text" placeholder="Masukan Username"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="pswd">Password</label></td>
+                            <td>:</td>
+                            <td><input type="password"></td>
+                            
+                        </tr>
+                        <tr>
+                            <td><label for="date">Tanggal Lahir</label></td>
+                            <td>:</td>
+                            <td><input id="date" type="date" name="date" value=""></td>
+                        </tr>
+                        <tr>
+                            <td><label for="gender">Jenis kelamin</label></td>
+                            <td>:</td>
+                            <td>
+                            <input type="radio" name="gender"> Laki-Laki 
+                            <input type="radio" name="gender"> Perempuan
+                        </td>
+                        </tr>
+                        <tr>
+                        <td><label for="tlpn" >Nomer Telepon</label></td>
+                        <td>:</td>
+                        <td><input type="number" placeholder="masukan nomor tlpn mu"></td>
+                        </tr>
+                        <tr>
+                        <td><label for="kota">Asal Kota</label></td>
+                        <td>:</td>
+                        <td><select name="kota" id="kota" >
+                            <option value="wsb">Wonosobo</option>
+                            <option value="sby">Surabaya</option>
+                            <option value="bdg">Bandung</option>
+                            <option value="pwt" selected>Purwokerto</option>
+                            <option value="smg">Semarang</option>
+                            <option value="jkt">jakarta</option>
+                        </select></td>
+                        </tr>
+                        <br>
+                        <tr>
+                            <td><label for="alamat">Alamat</label></td>
+                            <td>:</td>
+                            <td><textarea rows=9 cols="22" placeholder="Silahkan Katakan isi alamat"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Hobi">Hobi</label></td>
+                            <td>:</td>
+                            <td>
+                                <input type="checkbox" name="Hobi" id="Membaca Buku"> Membaca Buku
+                                <input type="checkbox" name="Hobi" checked id="Menulis"> Menulis
+                                <input type="checkbox" name="Hobi" id="memancing"> Memancing
+                            </td>
+                        </tr>
+                        <tr> <td><label for="Makanan">Makanan Favorit</label></td>
+                        <td>:</td>
+                        <td> <input type="text" list="makanan">
+                            <datalist id="makanan">
+							<option value="Burger "></option>
+							<option value="Pizza "></option>
+							<option value="Soto "></option>
+							<option value="Mie "></option>
+							<option value="Sate "></option>
+							<option value="Ikan "></option>
+						</datalist></td>
+                        </tr>
+                        <tr>
+                            <td>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td><Input type="submit"></Input>
+                            <input type="reset"></td>
+                        </tr>
+                    
+                </table></form>
+                
+            </fieldset>
+            <br>
+            <button align="center">Next Page</button>
+        </div></div>
+        
+        
+        
+    </body>
+</html>
